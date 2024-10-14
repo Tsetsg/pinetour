@@ -1,5 +1,19 @@
-export const App = () => {
-  return <div>App</div>;
-};
+import { Destination, Header, Hero, Pricing, Ready, Footer } from "./components";
 
-export default App;
+export const App = () => {
+  return (
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+      }}
+    >
+      <Header />
+      <Hero />
+      <Destination />
+      <Pricing />
+      <Ready />
+      <Footer/>
+    </div>
+  );
+};
