@@ -30,3 +30,22 @@
   font-weight: 700;
   line-height: 21.94px;
 }
+
+@media (max-width: 768px) {
+  #footer {
+    padding-bottom: 100px;
+  }
+
+  #footer-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #footer-container-right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
